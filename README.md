@@ -18,7 +18,9 @@ A página foi desenvolvida com foco em um design limpo e profissional, seguindo 
 
 ## 📦 Como Executar
 
-O projeto pode ser executado localmente seguindo os passos abaixo:
+O projeto deste reposiório pode ser acessado de fome online [aqui](https://joseh-sx.github.io/MedPrime/).
+
+Ou pode ser executado localmente seguindo os passos abaixo:
 
 ### 1. Clone o repositório
 
