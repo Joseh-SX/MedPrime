@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+  --cor-primaria: #F5F7FA;
+  --cor-secundaria: #2A628F;
+  --cor-texto-primaria: #1A2B6D;
+  --cor-texto-secundaria: #FFFFFF;
+  --cor-titulo-formulario: #000000;
+  --cor-btn-formulario: #4CAF50;
+  --cor-btn-formulario-hover: #45a049;
+  --cor-hover: #D3D3D3;
+  --cor-card: #A1CDA8;
+
+  --fonte-primaria: 'Krona One', sans-serif;
+  --fonte-secundaria: 'Montserrat', sans-serif;
+
+  --tamanho-primario: 2.25rem;
+  --tamanho-secundario: 1.5rem;
+
+  --peso-primario: 600;
+  --peso-secundario: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: var(--cor-primaria);
+    color:var(--cor-texto-primaria);
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: lighter;
+    text-align: justify;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-secundaria);
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  nav a {
+    color: var(--cor-texto-secundaria);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: var(--cor-hover);
+  }
+
+  .apresentacao{
+    display: flex;
+    gap: 50px;
+    padding: 70px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .apresentacao_texto{
+    text-align: justify;
+    max-width: 600px;
+    padding: 0px 20px;
+  }
+
+  .apresentacao_div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apresentacao_img{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    width: 300px;
+  }  
+  
+  .btn {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-secundaria);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 240px;
+  }
+
+  .btn:hover {
+    color: var(--cor-hover);
+  }
+  
+  .servicos {
+    padding: 70px 20px;
+    font-weight: bold;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .card_servico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card_img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .equipe{
+    padding: 70px 20px;
+    font-weight: bold;
+  }
+
+  .card_equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    font-size: 15px;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .nome{
+    font-size: 20px;
+  }
+
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 70px 0;
+    max-width: 600px;
+    font-weight: 500;
+    text-align: justify;
+  }  
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #titulo_saber_mais {
+    text-align: center;
+    color: var(--cor-titulo-formulario);
+  }
+
+  #subtitulo_saber_mais {
+    color: var(--cor-titulo-formulario);
+    padding: 20px;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: var(--cor-btn-formulario);
+    color: white;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--cor-btn-formulario-hover);
+  }
+
+  footer {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-secundaria);
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 30px;
+  }
