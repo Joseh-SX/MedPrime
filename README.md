@@ -26,12 +26,15 @@ Ou pode ser executado localmente seguindo os passos abaixo:
 
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio'''
+cd nome-do-repositorio
+```
 
 # Dentro de medprime_landig_page/ basta abrir o arquivo index.html com seu navegador:
+```bash
 xdg-open index.html    # Linux
 start index.html        # Windows
 open index.html         # macOS
+```
 
 ## Extrutura de pastas:
 
@@ -43,12 +46,12 @@ open index.html         # macOS
 
 ## ✨ Status do Projeto
 
-    📌 Projeto em desenvolvimento. Futuras versões podem incluir:
-    
-    - Criação de programa que torne utilizavel o formulario de contato
-    
-    - API para acesso à disponibilidade dos profissionais de saúde
+📌 Projeto em desenvolvimento. Futuras versões podem incluir:
 
-    - Integração com formulário de agendamento real
+- Criação de programa que torne utilizavel o formulario de contato
 
-    - Gerenciamento de dados de agendamentos
+- API para acesso à disponibilidade dos profissionais de saúde
+
+- Integração com formulário de agendamento real
+
+- Gerenciamento de dados de agendamentos
